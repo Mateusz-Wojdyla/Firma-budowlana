@@ -81,30 +81,37 @@ body {
 
     border-radius: 10px;
     box-shadow: 4px 4px 10px;
-	height: 300px;
-	width: 300px;
+	height: 35%;
+	width:20%;
 	background-image: url(joe-holland-80zZ1s24Nag-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
+	padding-bottom:1%
 }
 .box-fotoM {
     border-radius: 10px;
     box-shadow: 4px 4px 10px;
-	height: 300px;
-	width: 300px;
+	height: 35%;
+	width:20%;
 	background-image: url(pomiary.jpg);
 	background-size: cover;
 	background-position: center;
+	display:flex;
+	align-items: center;
+	padding-bottom:1%
 }
 
 .box-fotoL {
     box-shadow: 4px 4px 10px;
     border-radius: 10px;
-	height: 300px;
-	width: 300px;
+	height: 35%;
+	width:20%;
 	background-image: url(scott-graham-5fNmWej4tAA-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
+	display:flex;
+	align-items: center;
+	padding-bottom:1%
 }
 .btn {
 	align-items: center;
@@ -118,6 +125,8 @@ body {
     box-shadow: 2px 2px 10px;
     color: aliceblue;
     font-weight: 700;
+	display:flex;
+	align-items: center;
     
 }
 .btn:hover{
@@ -127,8 +136,8 @@ body {
 
 .wrapp {
 	display: flex;
-	justify-content: space-between;
-	padding: 60px;
+	justify-content: space-around;
+	padding: 5%;
 }
 
 .content {
